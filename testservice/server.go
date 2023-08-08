@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/md-w/trans-proxy/proxy/pb"
+	pb "github.com/md-w/trans-proxy/testservice/pb"
 	"google.golang.org/protobuf/proto"
 )
 

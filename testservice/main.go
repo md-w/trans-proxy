@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/md-w/trans-proxy/proxy/data"
-	pb "github.com/md-w/trans-proxy/proxy/pb"
+	"github.com/md-w/trans-proxy/testservice/data"
+	pb "github.com/md-w/trans-proxy/testservice/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
