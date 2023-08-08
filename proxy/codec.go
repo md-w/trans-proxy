@@ -1,11 +1,11 @@
 package proxy
 
 import (
-	"google.golang.org/grpc"
+	"google.golang.org/grpc/encoding"
 )
 
 type rawCodec struct {
-	parentCodec grpc.Codec
+	parentCodec encoding.Codec
 }
 type frame struct {
 	payload []byte
